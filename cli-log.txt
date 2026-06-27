@@ -1,0 +1,56 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260627101846
+Username: BOBIPC\Bobgo
+RunAs User: BOBIPC\Bobgo
+Configuration Name: 
+Machine: BOBIPC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 25436
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is cli-log.txt
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> gh issue create --title "Feature: Add a new UI button" --body "Add a new UI button according to the provided resources."
+X No default remote repository has been set. To learn more about the default repository, run: gh repo set-default --help
+
+please run `gh repo set-default` to select a default remote repository.
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> gh repo set-default
+ - working with GitHub Actions
+
+### NOTE: gh does not use the default repository for managing repository and environment secrets.
+
+? Which repository should be the default? BobiBash/SEDO-05-2026-Regular-Exam-1
+✓ Set BobiBash/SEDO-05-2026-Regular-Exam-1 as the default repository for the current directory
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> gh issue create --title "Feature: Add a new UI button" --body "Add a new UI button according to the provided resources."
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> gh issue create --title "Feature: Add a new UI button" --body "Add a new UI button according to the provided resources."
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1>  gh issue create --title "Bug: Fix homepage load error" --body "Fix the homepage load error according to the provided resources."
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> gh issue create --title "Chore: Refactor UserService class" --body "Refactor the UserService class according to the provided resources."
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git checkout -b feature/new-ui-button
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git status
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git add index.html
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git commit -m "Add UI button markup"
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git status
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git add script.js
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git commit -m "Connect button behavior"
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git status
+
+PS C:\Users\Bobgo\Desktop\SEDO-05-2026-Regular-Exam-1> git add style.css
+
